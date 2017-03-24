@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>	
+<!DOCTYPE rdf:RDF [
+    <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+    <!ENTITY rdfs 'http://www.w3.org/TR/WD-rdf-schema#'>
+]>
+
+<!-- @copyright Luxembourg Institute of Science and Technology, 2016. All 
+	rights reserved. If you wish to use this code for any purpose, please contact 
+	the author(s). THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 
+	"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED 
+	TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR 
+	PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS 
+	BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL 
+	DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR 
+	SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER 
+	CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
+	OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE 
+	USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+	@author Olivier Pedretti -->
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:base="http://www.tao.lu/Ontologies/ItemMetrics.rdf#"
+	xmlns:itemfeatureanalysis="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#"
+	xmlns:generis="http://www.tao.lu/Ontologies/generis.rdf#" xmlns:tao="http://www.tao.lu/Ontologies/TAO.rdf#"
+	xmlns:widget="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#">
+
+	<!-- Manager Role -->
+	<rdf:Description
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#ItemFeatureAnalysisManagerRole">
+		<rdf:type rdf:resource="http://www.tao.lu/Ontologies/TAO.rdf#ManagementRole" />
+		<generis:includesRole
+			rdf:resource="http://www.tao.lu/Ontologies/TAO.rdf#BackOfficeRole" />
+		<rdfs:label xml:lang="en-US"><![CDATA[Item Feature Analysis Manager]]></rdfs:label>
+		<rdfs:comment xml:lang="en-US"><![CDATA[The Item Feature Analysis Manager Role]]></rdfs:comment>
+	</rdf:Description>
+
+
+	<!-- AIG Item Properties - METRICS - Distractors - JaroWinkler Average -->
+	<rdf:Property
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#DistractorsJaroWinklerAverage">
+		<rdfs:label xml:lang="en-US"><![CDATA[Metric - Distractors - JaroWinkler Avg]]></rdfs:label>
+		<rdfs:domain rdf:resource="http://www.tao.lu/Ontologies/TAOItem.rdf#Item" />
+		<rdfs:range rdf:resource="xsd:float" />
+		<generis:is_language_dependent
+			rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<generis:Multiple rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<widget:widget
+			rdf:resource="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#TextBox" />
+	</rdf:Property>
+	<!-- AIG Item Properties - METRICS - Distractors - JaroWinkler Standard 
+		Deviation -->
+	<rdf:Property
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#DistractorsJaroWinklerStdDev">
+		<rdfs:label xml:lang="en-US"><![CDATA[Metric - Distractors - JaroWinkler StdDev]]></rdfs:label>
+		<rdfs:domain rdf:resource="http://www.tao.lu/Ontologies/TAOItem.rdf#Item" />
+		<rdfs:range rdf:resource="xsd:float" />
+		<generis:is_language_dependent
+			rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<generis:Multiple rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<widget:widget
+			rdf:resource="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#TextBox" />
+	</rdf:Property>
+	<!-- AIG Item Properties - METRICS - Distractors - Disco Average -->
+	<rdf:Property
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#DistractorsDiscoAverage">
+		<rdfs:label xml:lang="en-US"><![CDATA[Metric - Distractors - Disco Avg]]></rdfs:label>
+		<rdfs:domain rdf:resource="http://www.tao.lu/Ontologies/TAOItem.rdf#Item" />
+		<rdfs:range rdf:resource="xsd:float" />
+		<generis:is_language_dependent
+			rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<generis:Multiple rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<widget:widget
+			rdf:resource="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#TextBox" />
+	</rdf:Property>
+	<!-- AIG Item Properties - METRICS - Distractors - Disco Standard Deviation -->
+	<rdf:Property
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#DistractorsDiscoStdDev">
+		<rdfs:label xml:lang="en-US"><![CDATA[Metric - Distractors - Disco StdDev]]></rdfs:label>
+		<rdfs:domain rdf:resource="http://www.tao.lu/Ontologies/TAOItem.rdf#Item" />
+		<rdfs:range rdf:resource="xsd:float" />
+		<generis:is_language_dependent
+			rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<generis:Multiple rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<widget:widget
+			rdf:resource="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#TextBox" />
+	</rdf:Property>
+	<!-- AIG Item Properties - METRICS - Distractors - WordNet AVERAGE -->
+	<rdf:Property
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#DistractorsWordNetAverage">
+		<rdfs:label xml:lang="en-US"><![CDATA[Metric - Distractors - WordNet Avg]]></rdfs:label>
+		<rdfs:domain rdf:resource="http://www.tao.lu/Ontologies/TAOItem.rdf#Item" />
+		<rdfs:range rdf:resource="xsd:float" />
+		<generis:is_language_dependent
+			rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<generis:Multiple rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<widget:widget
+			rdf:resource="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#TextBox" />
+	</rdf:Property>
+	<!-- AIG Item Properties - METRICS - Distractors - WordNet Standard Deviation -->
+	<rdf:Property
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#DistractorsWordNetStdDev">
+		<rdfs:label xml:lang="en-US"><![CDATA[Metric - Distractors - WordNet StdDev]]></rdfs:label>
+		<rdfs:domain rdf:resource="http://www.tao.lu/Ontologies/TAOItem.rdf#Item" />
+		<rdfs:range rdf:resource="xsd:float" />
+		<generis:is_language_dependent
+			rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<generis:Multiple rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<widget:widget
+			rdf:resource="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#TextBox" />
+	</rdf:Property>
+	<!-- AIG Item Properties - METRICS - Distractors - SemSim AVERAGE -->
+	<rdf:Property
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#DistractorsSemSimAverage">
+		<rdfs:label xml:lang="en-US"><![CDATA[Metric - Distractors - SemSim Avg]]></rdfs:label>
+		<rdfs:domain rdf:resource="http://www.tao.lu/Ontologies/TAOItem.rdf#Item" />
+		<rdfs:range rdf:resource="xsd:float" />
+		<generis:is_language_dependent
+			rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<generis:Multiple rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<widget:widget
+			rdf:resource="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#TextBox" />
+	</rdf:Property>
+	<!-- AIG Item Properties - METRICS - Distractors - SemSim Standard Deviation -->
+	<rdf:Property
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#DistractorsSemSimStdDev">
+		<rdfs:label xml:lang="en-US"><![CDATA[Metric - Distractors - SemSim StdDev]]></rdfs:label>
+		<rdfs:domain rdf:resource="http://www.tao.lu/Ontologies/TAOItem.rdf#Item" />
+		<rdfs:range rdf:resource="xsd:float" />
+		<generis:is_language_dependent
+			rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<generis:Multiple rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<widget:widget
+			rdf:resource="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#TextBox" />
+	</rdf:Property>
+	<!-- AIG Item Properties - METRICS - Item - Text Difficulty - Number Of 
+		Sentences -->
+	<rdf:Property
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#ItemTextDifficultyNumberOfSentences">
+		<rdfs:label xml:lang="en-US"><![CDATA[Metric - Item - Text Difficulty - Number Of Sentences]]></rdfs:label>
+		<rdfs:domain rdf:resource="http://www.tao.lu/Ontologies/TAOItem.rdf#Item" />
+		<rdfs:range rdf:resource="xsd:float" />
+		<generis:is_language_dependent
+			rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<generis:Multiple rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<widget:widget
+			rdf:resource="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#TextBox" />
+	</rdf:Property>
+	<!-- AIG Item Properties - METRICS - Item - Text Difficulty - Number Of 
+		Words -->
+	<rdf:Property
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#ItemTextDifficultyNumberOfWords">
+		<rdfs:label xml:lang="en-US"><![CDATA[Metric - Item - Text Difficulty - Number Of Words]]></rdfs:label>
+		<rdfs:domain rdf:resource="http://www.tao.lu/Ontologies/TAOItem.rdf#Item" />
+		<rdfs:range rdf:resource="xsd:float" />
+		<generis:is_language_dependent
+			rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<generis:Multiple rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<widget:widget
+			rdf:resource="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#TextBox" />
+	</rdf:Property>
+	<!-- AIG Item Properties - METRICS - Item - Text Difficulty - Number of 
+		Syllables -->
+	<rdf:Property
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#ItemTextDifficultyNumberOfSyllables">
+		<rdfs:label xml:lang="en-US"><![CDATA[Metric - Item - Text Difficulty - Number Of Syllables]]></rdfs:label>
+		<rdfs:domain rdf:resource="http://www.tao.lu/Ontologies/TAOItem.rdf#Item" />
+		<rdfs:range rdf:resource="xsd:float" />
+		<generis:is_language_dependent
+			rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<generis:Multiple rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<widget:widget
+			rdf:resource="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#TextBox" />
+	</rdf:Property>
+	<!-- AIG Item Properties - METRICS - Item - Text Difficulty - Number Of 
+		Propositions -->
+	<rdf:Property
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#ItemTextDifficultyNumberOfPropositions">
+		<rdfs:label xml:lang="en-US"><![CDATA[Metric - Item - Text Difficulty - Number Of Propositions]]></rdfs:label>
+		<rdfs:domain rdf:resource="http://www.tao.lu/Ontologies/TAOItem.rdf#Item" />
+		<rdfs:range rdf:resource="xsd:float" />
+		<generis:is_language_dependent
+			rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<generis:Multiple rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<widget:widget
+			rdf:resource="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#TextBox" />
+	</rdf:Property>
+	<!-- AIG Item Properties - METRICS - Item - Text Difficulty - Average Sentence 
+		Length -->
+	<rdf:Property
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#ItemTextDifficultyAverageSentenceLength">
+		<rdfs:label xml:lang="en-US"><![CDATA[Metric - Item - Text Difficulty - Average Sentence Length]]></rdfs:label>
+		<rdfs:domain rdf:resource="http://www.tao.lu/Ontologies/TAOItem.rdf#Item" />
+		<rdfs:range rdf:resource="xsd:float" />
+		<generis:is_language_dependent
+			rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<generis:Multiple rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<widget:widget
+			rdf:resource="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#TextBox" />
+	</rdf:Property>
+	<!-- AIG Item Properties - METRICS - Item - Text Difficulty - Average Word 
+		Length -->
+	<rdf:Property
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#ItemTextDifficultyAverageWordLength">
+		<rdfs:label xml:lang="en-US"><![CDATA[Metric - Item - Text Difficulty - Average Word Length]]></rdfs:label>
+		<rdfs:domain rdf:resource="http://www.tao.lu/Ontologies/TAOItem.rdf#Item" />
+		<rdfs:range rdf:resource="xsd:float" />
+		<generis:is_language_dependent
+			rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<generis:Multiple rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<widget:widget
+			rdf:resource="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#TextBox" />
+	</rdf:Property>
+	<!-- AIG Item Properties - METRICS - Item - Text Difficulty - Average Number 
+		Of Syllables Per Word -->
+	<rdf:Property
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#ItemTextDifficultyAverageNumberOfSyllablesPerWord">
+		<rdfs:label xml:lang="en-US"><![CDATA[Metric - Item - Text Difficulty - Average Number Of Syllables Per Word]]></rdfs:label>
+		<rdfs:domain rdf:resource="http://www.tao.lu/Ontologies/TAOItem.rdf#Item" />
+		<rdfs:range rdf:resource="xsd:float" />
+		<generis:is_language_dependent
+			rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<generis:Multiple rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<widget:widget
+			rdf:resource="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#TextBox" />
+	</rdf:Property>
+	<!-- AIG Item Properties - METRICS - Item - Text Difficulty - Average Number 
+		Of Propositions -->
+	<rdf:Property
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#ItemTextDifficultyAverageNumberOfPropositions">
+		<rdfs:label xml:lang="en-US"><![CDATA[Metric - Item - Text Difficulty - Average Number Of Propositions]]></rdfs:label>
+		<rdfs:domain rdf:resource="http://www.tao.lu/Ontologies/TAOItem.rdf#Item" />
+		<rdfs:range rdf:resource="xsd:float" />
+		<generis:is_language_dependent
+			rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<generis:Multiple rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<widget:widget
+			rdf:resource="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#TextBox" />
+	</rdf:Property>
+	<!-- AIG Item Properties - METRICS - Item - Text Difficulty - Type Token 
+		Ratio -->
+	<rdf:Property
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#ItemTextDifficultyTypeTokenRatio">
+		<rdfs:label xml:lang="en-US"><![CDATA[Metric - Item - Text Difficulty - Type Token Ratio]]></rdfs:label>
+		<rdfs:domain rdf:resource="http://www.tao.lu/Ontologies/TAOItem.rdf#Item" />
+		<rdfs:range rdf:resource="xsd:float" />
+		<generis:is_language_dependent
+			rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<generis:Multiple rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<widget:widget
+			rdf:resource="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#TextBox" />
+	</rdf:Property>
+	<!-- AIG Item Properties - METRICS - Item - Text Difficulty - References -->
+	<rdf:Property
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#ItemTextDifficultyReferences">
+		<rdfs:label xml:lang="en-US"><![CDATA[Metric - Item - Text Difficulty - References]]></rdfs:label>
+		<rdfs:domain rdf:resource="http://www.tao.lu/Ontologies/TAOItem.rdf#Item" />
+		<rdfs:range rdf:resource="xsd:float" />
+		<generis:is_language_dependent
+			rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<generis:Multiple rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<widget:widget
+			rdf:resource="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#TextBox" />
+	</rdf:Property>
+	<!-- AIG Item Properties - METRICS - Item - Text Difficulty - Identifications -->
+	<rdf:Property
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#ItemTextDifficultyIdentifications">
+		<rdfs:label xml:lang="en-US"><![CDATA[Metric - Item - Text Difficulty - Identifications]]></rdfs:label>
+		<rdfs:domain rdf:resource="http://www.tao.lu/Ontologies/TAOItem.rdf#Item" />
+		<rdfs:range rdf:resource="xsd:float" />
+		<generis:is_language_dependent
+			rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<generis:Multiple rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<widget:widget
+			rdf:resource="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#TextBox" />
+	</rdf:Property>
+	<!-- AIG Item Properties - METRICS - Item - Text Difficulty - Flesch Kincaid -->
+	<rdf:Property
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#ItemTextDifficultyFleschKincaid">
+		<rdfs:label xml:lang="en-US"><![CDATA[Metric - Item - Text Difficulty - Flesch Kincaid]]></rdfs:label>
+		<rdfs:domain rdf:resource="http://www.tao.lu/Ontologies/TAOItem.rdf#Item" />
+		<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
+		<generis:is_language_dependent
+			rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<generis:Multiple rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<widget:widget
+			rdf:resource="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#TextBox" />
+	</rdf:Property>
+	<!-- AIG Item Properties - METRICS - Item - Text Difficulty - Dale -->
+	<rdf:Property
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#ItemTextDifficultyDale">
+		<rdfs:label xml:lang="en-US"><![CDATA[Metric - Item - Text Difficulty - Dale]]></rdfs:label>
+		<rdfs:domain rdf:resource="http://www.tao.lu/Ontologies/TAOItem.rdf#Item" />
+		<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
+		<generis:is_language_dependent
+			rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<generis:Multiple rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<widget:widget
+			rdf:resource="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#TextBox" />
+	</rdf:Property>
+	<!-- AIG Item Properties - METRICS - Item - Text Difficulty - Dictionary 
+		Coca -->
+	<rdf:Property
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#ItemTextDifficultyDictionaryCoca">
+		<rdfs:label xml:lang="en-US"><![CDATA[Metric - Item - Text Difficulty - Dictionary Coca]]></rdfs:label>
+		<rdfs:domain rdf:resource="http://www.tao.lu/Ontologies/TAOItem.rdf#Item" />
+		<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
+		<generis:is_language_dependent
+			rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<generis:Multiple rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<widget:widget
+			rdf:resource="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#TextBox" />
+	</rdf:Property>
+	<!-- AIG Item Properties - METRICS - Item - Text Difficulty - Amstad -->
+	<rdf:Property
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#ItemTextDifficultyAmstad">
+		<rdfs:label xml:lang="en-US"><![CDATA[Metric - Item - Text Difficulty - Amstad]]></rdfs:label>
+		<rdfs:domain rdf:resource="http://www.tao.lu/Ontologies/TAOItem.rdf#Item" />
+		<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
+		<generis:is_language_dependent
+			rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<generis:Multiple rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<widget:widget
+			rdf:resource="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#TextBox" />
+	</rdf:Property>
+	<!-- AIG Item Properties - METRICS - Item - Text Difficulty - Final Text 
+		Difficulty -->
+	<rdf:Property
+		rdf:about="http://www.tao.lu/Ontologies/ItemFeatureAnalysis.rdf#ItemTextDifficultyFinalTextDifficulty">
+		<rdfs:label xml:lang="en-US"><![CDATA[Metric - Item - Text Difficulty - Final Text Difficulty]]></rdfs:label>
+		<rdfs:domain rdf:resource="http://www.tao.lu/Ontologies/TAOItem.rdf#Item" />
+		<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
+		<generis:is_language_dependent
+			rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<generis:Multiple rdf:resource="http://www.tao.lu/Ontologies/generis.rdf#False" />
+		<widget:widget
+			rdf:resource="http://www.tao.lu/datatypes/WidgetDefinitions.rdf#TextBox" />
+	</rdf:Property>
+</rdf:RDF>

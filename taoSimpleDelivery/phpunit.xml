@@ -1,0 +1,9 @@
+<phpunit 
+	bootstrap="../tests/bootstrap/bootstrap.php">
+	<!-- Local Extension PHPUnit XML file. -->
+	<testsuites>
+		<testsuite name="taoSimpleDelivery">
+			<directory>test</directory>
+		</testsuite>
+	</testsuites>
+</phpunit>

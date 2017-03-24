@@ -1,0 +1,2796 @@
+[
+    {
+        "name": "easyrdf/easyrdf",
+        "version": "0.9.x-dev",
+        "version_normalized": "0.9.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/njh/easyrdf.git",
+            "reference": "acd09dfe0555fbcfa254291e433c45fdd4652566"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/njh/easyrdf/zipball/acd09dfe0555fbcfa254291e433c45fdd4652566",
+            "reference": "acd09dfe0555fbcfa254291e433c45fdd4652566",
+            "shasum": ""
+        },
+        "require": {
+            "ext-mbstring": "*",
+            "ext-pcre": "*",
+            "php": ">=5.2.8"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~3.5",
+            "sami/sami": "~1.4",
+            "squizlabs/php_codesniffer": "~1.4.3"
+        },
+        "suggest": {
+            "ml/json-ld": "~1.0"
+        },
+        "time": "2015-02-27 09:45:49",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "EasyRdf_": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Nicholas Humfrey",
+                "email": "njh@aelius.com",
+                "homepage": "http://www.aelius.com/njh/",
+                "role": "Developer"
+            },
+            {
+                "name": "Alexey Zakhlestin",
+                "email": "indeyets@gmail.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "EasyRdf is a PHP library designed to make it easy to consume and produce RDF.",
+        "homepage": "http://www.easyrdf.org/",
+        "keywords": [
+            "Linked Data",
+            "RDF",
+            "Semantic Web",
+            "Turtle",
+            "rdfa",
+            "sparql"
+        ]
+    },
+    {
+        "name": "doctrine/lexer",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/lexer.git",
+            "reference": "83893c552fd2045dd78aef794c31e694c37c0b8c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/lexer/zipball/83893c552fd2045dd78aef794c31e694c37c0b8c",
+            "reference": "83893c552fd2045dd78aef794c31e694c37c0b8c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "time": "2014-09-09 13:34:57",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\Common\\Lexer\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com"
+            }
+        ],
+        "description": "Base library for a lexer that can be used in Top-Down, Recursive Descent Parsers.",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "lexer",
+            "parser"
+        ]
+    },
+    {
+        "name": "doctrine/annotations",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/annotations.git",
+            "reference": "f25c8aab83e0c3e976fd7d19875f198ccf2f7535"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/annotations/zipball/f25c8aab83e0c3e976fd7d19875f198ccf2f7535",
+            "reference": "f25c8aab83e0c3e976fd7d19875f198ccf2f7535",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/lexer": "1.*",
+            "php": ">=5.3.2"
+        },
+        "require-dev": {
+            "doctrine/cache": "1.*",
+            "phpunit/phpunit": "4.*"
+        },
+        "time": "2015-08-31 12:32:49",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.3.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\Common\\Annotations\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com"
+            }
+        ],
+        "description": "Docblock Annotations Parser",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "annotations",
+            "docblock",
+            "parser"
+        ]
+    },
+    {
+        "name": "doctrine/collections",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/collections.git",
+            "reference": "866e100a425b8b73d15393fd081c6bf067f05bf9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/collections/zipball/866e100a425b8b73d15393fd081c6bf067f05bf9",
+            "reference": "866e100a425b8b73d15393fd081c6bf067f05bf9",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2015-09-11 15:24:21",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.3.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\Common\\Collections\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com"
+            }
+        ],
+        "description": "Collections Abstraction library",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "array",
+            "collections",
+            "iterator"
+        ]
+    },
+    {
+        "name": "doctrine/common",
+        "version": "2.4.x-dev",
+        "version_normalized": "2.4.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/common.git",
+            "reference": "1b0f957ae7facde8a48500894f5c20bce352b9f3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/common/zipball/1b0f957ae7facde8a48500894f5c20bce352b9f3",
+            "reference": "1b0f957ae7facde8a48500894f5c20bce352b9f3",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/annotations": "1.*",
+            "doctrine/cache": "1.*",
+            "doctrine/collections": "1.*",
+            "doctrine/inflector": "1.*",
+            "doctrine/lexer": "1.*",
+            "php": ">=5.3.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~3.7"
+        },
+        "time": "2015-08-31 14:43:41",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.4.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\Common\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com"
+            }
+        ],
+        "description": "Common Library for Doctrine projects",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "annotations",
+            "collections",
+            "eventmanager",
+            "persistence",
+            "spl"
+        ]
+    },
+    {
+        "name": "doctrine/dbal",
+        "version": "2.3.x-dev",
+        "version_normalized": "2.3.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/dbal.git",
+            "reference": "6b0002cd1349904c5b089ae059e26a2406d1309e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/dbal/zipball/6b0002cd1349904c5b089ae059e26a2406d1309e",
+            "reference": "6b0002cd1349904c5b089ae059e26a2406d1309e",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/common": ">=2.3.0,<2.5-dev",
+            "php": ">=5.3.2"
+        },
+        "time": "2014-09-15 11:48:05",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.3.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\DBAL": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com"
+            }
+        ],
+        "description": "Database Abstraction Layer",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "database",
+            "dbal",
+            "persistence",
+            "queryobject"
+        ]
+    },
+    {
+        "name": "phpdocumentor/reflection-docblock",
+        "version": "2.0.4",
+        "version_normalized": "2.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
+            "reference": "d68dbdc53dc358a816f00b300704702b2eaff7b8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/d68dbdc53dc358a816f00b300704702b2eaff7b8",
+            "reference": "d68dbdc53dc358a816f00b300704702b2eaff7b8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0"
+        },
+        "suggest": {
+            "dflydev/markdown": "~1.0",
+            "erusev/parsedown": "~1.0"
+        },
+        "time": "2015-02-03 12:10:50",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "phpDocumentor": [
+                    "src/"
+                ]
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mike van Riel",
+                "email": "mike.vanriel@naenius.com"
+            }
+        ]
+    },
+    {
+        "name": "oat-sa/jig",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/jig.git",
+            "reference": "521f260d16a5b8a820140f3b83458813d9928255"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/jig/zipball/521f260d16a5b8a820140f3b83458813d9928255",
+            "reference": "521f260d16a5b8a820140f3b83458813d9928255",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2015-07-29 12:04:19",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Jig\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Dieter Raber",
+                "email": "me@dieterraber.net"
+            }
+        ],
+        "description": "Jig PHP Utilities"
+    },
+    {
+        "name": "oat-sa/oatbox-extension-installer",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/oatbox-extension-installer.git",
+            "reference": "3fa57ad0188b8888aedcd67062ffacb37d001cde"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/oatbox-extension-installer/zipball/3fa57ad0188b8888aedcd67062ffacb37d001cde",
+            "reference": "3fa57ad0188b8888aedcd67062ffacb37d001cde",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0",
+            "php": ">=5.4"
+        },
+        "time": "2015-11-23 11:35:13",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "oatbox\\composer\\ExtensionInstallerPlugin"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "oatbox\\composer": "./"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies S.A.",
+                "homepage": "http://www.taotesting.com"
+            },
+            {
+                "name": "Lionel Lecaque",
+                "role": "Developer"
+            }
+        ],
+        "description": "Custom composer extension installer for oatbox extension",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "OAT",
+            "TAO",
+            "composer",
+            "computer-based-assessment",
+            "oatbox"
+        ]
+    },
+    {
+        "name": "alroniks/dtms",
+        "version": "v0.5.2",
+        "version_normalized": "0.5.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Alroniks/dtms.git",
+            "reference": "fc48c95868feface8b769dd956509b54c5dd8ab5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Alroniks/dtms/zipball/fc48c95868feface8b769dd956509b54c5dd8ab5",
+            "reference": "fc48c95868feface8b769dd956509b54c5dd8ab5",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.*"
+        },
+        "time": "2015-08-26 15:24:59",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "alroniks\\dtms\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ivan Klimchuk",
+                "email": "ivan@klimchuk.com",
+                "homepage": "http://klimchuk.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Classes for manipulate dates and intervals with microseconds precision",
+        "homepage": "http://alroniks.github.io/dtms",
+        "keywords": [
+            "date",
+            "datetime",
+            "fractions",
+            "interval",
+            "iso8601",
+            "microseconds",
+            "milliseconds",
+            "ms",
+            "time"
+        ]
+    },
+    {
+        "name": "qtism/qtism",
+        "version": "0.9.18",
+        "version_normalized": "0.9.18.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/qti-sdk.git",
+            "reference": "5f60626fe981096786ac91ae0083374f67f34f79"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/qti-sdk/zipball/5f60626fe981096786ac91ae0083374f67f34f79",
+            "reference": "5f60626fe981096786ac91ae0083374f67f34f79",
+            "shasum": ""
+        },
+        "require": {
+            "alroniks/dtms": "0.5.2",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": ">=3.7.20"
+        },
+        "time": "2015-11-20 09:21:16",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "qtism\\": "."
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies S.A.",
+                "homepage": "http://www.taotesting.com"
+            },
+            {
+                "name": "Jérôme Bogaerts",
+                "email": "jerome@taotesting.com",
+                "homepage": "http://www.taotesting.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "OAT QTI Software Module Library",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "CBA",
+            "Computer-Aided Assessment",
+            "Computer-Assisted Assessment",
+            "Computer-Based Assessment",
+            "IMS",
+            "OAT",
+            "QTI",
+            "TAO"
+        ]
+    },
+    {
+        "name": "doctrine/inflector",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/inflector.git",
+            "reference": "90b2128806bfde671b6952ab8bea493942c1fdae"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/inflector/zipball/90b2128806bfde671b6952ab8bea493942c1fdae",
+            "reference": "90b2128806bfde671b6952ab8bea493942c1fdae",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.*"
+        },
+        "time": "2015-11-06 14:35:42",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\Common\\Inflector\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com"
+            }
+        ],
+        "description": "Common String Manipulations with regard to casing and singular/plural rules.",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "inflection",
+            "pluralize",
+            "singularize",
+            "string"
+        ]
+    },
+    {
+        "name": "doctrine/cache",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/cache.git",
+            "reference": "f69c21c5cea834def1664a73a1b7cd5fcdfbd23e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/cache/zipball/f69c21c5cea834def1664a73a1b7cd5fcdfbd23e",
+            "reference": "f69c21c5cea834def1664a73a1b7cd5fcdfbd23e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "conflict": {
+            "doctrine/common": ">2.2,<2.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": ">=3.7",
+            "predis/predis": "~1.0",
+            "satooshi/php-coveralls": "~0.6"
+        },
+        "time": "2015-11-02 18:32:40",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.6.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Doctrine\\Common\\Cache\\": "lib/Doctrine/Common/Cache"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com"
+            }
+        ],
+        "description": "Caching library offering an object-oriented API for many cache backends",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "cache",
+            "caching"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-delivery",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-delivery.git",
+            "reference": "b18afcc4ebb3b25bf57dfaa2a41f775e365cc51d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-delivery/zipball/b18afcc4ebb3b25bf57dfaa2a41f775e365cc51d",
+            "reference": "b18afcc4ebb3b25bf57dfaa2a41f775e365cc51d",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-08-20 15:35:34",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "taoDelivery"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\taoDelivery\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies S.A.",
+                "homepage": "http://www.taotesting.com"
+            },
+            {
+                "name": "Jérôme Bogaerts",
+                "role": "Developer"
+            },
+            {
+                "name": "Joel Bout",
+                "role": "Developer"
+            },
+            {
+                "name": "Bertrand Chevrier",
+                "role": "Developer"
+            },
+            {
+                "name": "Lionel Lecaque",
+                "role": "Developer"
+            },
+            {
+                "name": "Patrick Plichart",
+                "role": "Developer"
+            },
+            {
+                "name": "Dieter Raber",
+                "role": "Developer"
+            },
+            {
+                "name": "Somsack Sipasseuth",
+                "role": "Developer"
+            }
+        ],
+        "description": "extension to manage deliveries",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "OAT",
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-lti",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-lti.git",
+            "reference": "f764e582214144d45f9bd386cb5a5e963534281d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-lti/zipball/f764e582214144d45f9bd386cb5a5e963534281d",
+            "reference": "f764e582214144d45f9bd386cb5a5e963534281d",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-08-18 14:13:05",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "taoLti"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\taoLti\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies S.A.",
+                "homepage": "http://www.taotesting.com"
+            },
+            {
+                "name": "Jérôme Bogaerts",
+                "role": "Developer"
+            },
+            {
+                "name": "Joel Bout",
+                "role": "Developer"
+            },
+            {
+                "name": "Bertrand Chevrier",
+                "role": "Developer"
+            },
+            {
+                "name": "Lionel Lecaque",
+                "role": "Developer"
+            },
+            {
+                "name": "Patrick Plichart",
+                "role": "Developer"
+            },
+            {
+                "name": "Dieter Raber",
+                "role": "Developer"
+            },
+            {
+                "name": "Somsack Sipasseuth",
+                "role": "Developer"
+            }
+        ],
+        "description": "extension to manage LTI services for TAO",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "LTI",
+            "OAT",
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-itemqti",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-itemqti.git",
+            "reference": "ae38af55a2d2e6e4d7713021e995de4bdaed8d3e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-itemqti/zipball/ae38af55a2d2e6e4d7713021e995de4bdaed8d3e",
+            "reference": "ae38af55a2d2e6e4d7713021e995de4bdaed8d3e",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/lib-tao-qti": "dev-master",
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-08-18 14:18:44",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "taoQtiItem"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\taoQtiItem\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies S.A.",
+                "homepage": "http://www.taotesting.com"
+            },
+            {
+                "name": "Jérôme Bogaerts",
+                "role": "Developer"
+            },
+            {
+                "name": "Joel Bout",
+                "role": "Developer"
+            },
+            {
+                "name": "Bertrand Chevrier",
+                "role": "Developer"
+            },
+            {
+                "name": "Lionel Lecaque",
+                "role": "Developer"
+            },
+            {
+                "name": "Patrick Plichart",
+                "role": "Developer"
+            },
+            {
+                "name": "Dieter Raber",
+                "role": "Developer"
+            },
+            {
+                "name": "Somsack Sipasseuth",
+                "role": "Developer"
+            }
+        ],
+        "description": "extension to create QTI items",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "OAT",
+            "QTI",
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-testqti",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-testqti.git",
+            "reference": "e61e4ff90aec054c947ea69b06615c02ca6cb793"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-testqti/zipball/e61e4ff90aec054c947ea69b06615c02ca6cb793",
+            "reference": "e61e4ff90aec054c947ea69b06615c02ca6cb793",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/lib-tao-qti": "dev-master",
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-08-18 14:19:03",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "taoQtiTest"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\taoQtiTest\\models\\": "models/classes/",
+                "oat\\taoQtiTest\\test\\": "test",
+                "oat\\taoQtiTest\\scripts\\": "scripts"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies S.A.",
+                "homepage": "http://www.taotesting.com"
+            },
+            {
+                "name": "Jérôme Bogaerts",
+                "role": "Developer"
+            },
+            {
+                "name": "Joel Bout",
+                "role": "Developer"
+            },
+            {
+                "name": "Bertrand Chevrier",
+                "role": "Developer"
+            },
+            {
+                "name": "Lionel Lecaque",
+                "role": "Developer"
+            },
+            {
+                "name": "Patrick Plichart",
+                "role": "Developer"
+            },
+            {
+                "name": "Dieter Raber",
+                "role": "Developer"
+            },
+            {
+                "name": "Somsack Sipasseuth",
+                "role": "Developer"
+            }
+        ],
+        "description": "extension to create QTI tests",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "OAT",
+            "QTI",
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-testtaker",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-testtaker.git",
+            "reference": "f7919d7fc89b386cf876b45a33ebcbfb0f6c27e9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-testtaker/zipball/f7919d7fc89b386cf876b45a33ebcbfb0f6c27e9",
+            "reference": "f7919d7fc89b386cf876b45a33ebcbfb0f6c27e9",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-08-18 14:19:25",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "taoTestTaker"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\taoTestTaker\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies S.A.",
+                "homepage": "http://www.taotesting.com"
+            },
+            {
+                "name": "Jérôme Bogaerts",
+                "role": "Developer"
+            },
+            {
+                "name": "Joel Bout",
+                "role": "Developer"
+            },
+            {
+                "name": "Bertrand Chevrier",
+                "role": "Developer"
+            },
+            {
+                "name": "Lionel Lecaque",
+                "role": "Developer"
+            },
+            {
+                "name": "Patrick Plichart",
+                "role": "Developer"
+            },
+            {
+                "name": "Dieter Raber",
+                "role": "Developer"
+            },
+            {
+                "name": "Somsack Sipasseuth",
+                "role": "Developer"
+            }
+        ],
+        "description": "extension to manage testtakers ",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "OAT",
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-outcomeui",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-outcomeui.git",
+            "reference": "c3cad384a61064ad4e497f7fe808a6102b7c98ce"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-outcomeui/zipball/c3cad384a61064ad4e497f7fe808a6102b7c98ce",
+            "reference": "c3cad384a61064ad4e497f7fe808a6102b7c98ce",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-08-20 15:35:58",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "taoOutcomeUi"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\taoOutcomeUi\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies S.A.",
+                "homepage": "http://www.taotesting.com"
+            },
+            {
+                "name": "Jérôme Bogaerts",
+                "role": "Developer"
+            },
+            {
+                "name": "Joel Bout",
+                "role": "Developer"
+            },
+            {
+                "name": "Bertrand Chevrier",
+                "role": "Developer"
+            },
+            {
+                "name": "Lionel Lecaque",
+                "role": "Developer"
+            },
+            {
+                "name": "Patrick Plichart",
+                "role": "Developer"
+            },
+            {
+                "name": "Dieter Raber",
+                "role": "Developer"
+            },
+            {
+                "name": "Somsack Sipasseuth",
+                "role": "Developer"
+            }
+        ],
+        "description": "extension to display the outcomes",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "OAT",
+            "QTI",
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-ltideliveryprovider",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-ltideliveryprovider.git",
+            "reference": "af8083e074d6f1420937b18f086084b4bad5e970"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-ltideliveryprovider/zipball/af8083e074d6f1420937b18f086084b4bad5e970",
+            "reference": "af8083e074d6f1420937b18f086084b4bad5e970",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-08-18 14:09:40",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "ltiDeliveryProvider"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\ltiDeliveryProvider\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies S.A.",
+                "homepage": "http://www.taotesting.com"
+            },
+            {
+                "name": "Jérôme Bogaerts",
+                "role": "Developer"
+            },
+            {
+                "name": "Joel Bout",
+                "role": "Developer"
+            },
+            {
+                "name": "Bertrand Chevrier",
+                "role": "Developer"
+            },
+            {
+                "name": "Lionel Lecaque",
+                "role": "Developer"
+            },
+            {
+                "name": "Patrick Plichart",
+                "role": "Developer"
+            },
+            {
+                "name": "Dieter Raber",
+                "role": "Developer"
+            },
+            {
+                "name": "Somsack Sipasseuth",
+                "role": "Developer"
+            }
+        ],
+        "description": "extension to manage LTI delivery provider for TAO",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "OAT",
+            "QTI",
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-outcomerds",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-outcomerds.git",
+            "reference": "709abcc9b8f78bb09f2f1648e6f4bcb9acf46816"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-outcomerds/zipball/709abcc9b8f78bb09f2f1648e6f4bcb9acf46816",
+            "reference": "709abcc9b8f78bb09f2f1648e6f4bcb9acf46816",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-08-18 14:13:28",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "taoOutcomeRds"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\taoOutcomeRds\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies SA"
+            }
+        ],
+        "description": "extension that allows outcome storage in relational database",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-dac-simple",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-dac-simple.git",
+            "reference": "e55fca3b4b2d1a8e1b01cd739f134ed30a2f9ead"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-dac-simple/zipball/e55fca3b4b2d1a8e1b01cd739f134ed30a2f9ead",
+            "reference": "e55fca3b4b2d1a8e1b01cd739f134ed30a2f9ead",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-08-19 18:22:23",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "taoDacSimple"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\taoDacSimple\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies SA"
+            }
+        ],
+        "description": "extension that allows admin to give access to some resources to other people",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-itemqti-pci",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-itemqti-pci.git",
+            "reference": "4775c3ff9bf874c5e016425238c7e2757948a245"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-itemqti-pci/zipball/4775c3ff9bf874c5e016425238c7e2757948a245",
+            "reference": "4775c3ff9bf874c5e016425238c7e2757948a245",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-08-18 14:09:49",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "qtiItemPci"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\qtiItemPci\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies SA"
+            }
+        ],
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-itemqti-pic",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-itemqti-pic.git",
+            "reference": "0682b02bde20e821ef4d40827ee2e2e14ffb75be"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-itemqti-pic/zipball/0682b02bde20e821ef4d40827ee2e2e14ffb75be",
+            "reference": "0682b02bde20e821ef4d40827ee2e2e14ffb75be",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-08-18 14:10:06",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "qtiItemPic"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\qtiItemPic\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies"
+            }
+        ],
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-group",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-group.git",
+            "reference": "6f35261faa7e915ececd574590cf79c87bfcd6ca"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-group/zipball/6f35261faa7e915ececd574590cf79c87bfcd6ca",
+            "reference": "6f35261faa7e915ececd574590cf79c87bfcd6ca",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-08-18 14:12:40",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "taoGroups"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\taoGroups\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies S.A.",
+                "homepage": "http://www.taotesting.com"
+            },
+            {
+                "name": "Jérôme Bogaerts",
+                "role": "Developer"
+            },
+            {
+                "name": "Joel Bout",
+                "role": "Developer"
+            },
+            {
+                "name": "Bertrand Chevrier",
+                "role": "Developer"
+            },
+            {
+                "name": "Lionel Lecaque",
+                "role": "Developer"
+            },
+            {
+                "name": "Patrick Plichart",
+                "role": "Developer"
+            },
+            {
+                "name": "Dieter Raber",
+                "role": "Developer"
+            },
+            {
+                "name": "Somsack Sipasseuth",
+                "role": "Developer"
+            }
+        ],
+        "description": "extension to manage group",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "OAT",
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-outcomelti",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-outcomelti.git",
+            "reference": "e9d3912b12a0c106c43e31359bfb6dbeb040de56"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-outcomelti/zipball/e9d3912b12a0c106c43e31359bfb6dbeb040de56",
+            "reference": "e9d3912b12a0c106c43e31359bfb6dbeb040de56",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-06-19 14:08:05",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "taoLtiBasicOutcome"
+        },
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies S.A.",
+                "homepage": "http://www.taotesting.com"
+            },
+            {
+                "name": "Jérôme Bogaerts",
+                "role": "Developer"
+            },
+            {
+                "name": "Joel Bout",
+                "role": "Developer"
+            },
+            {
+                "name": "Bertrand Chevrier",
+                "role": "Developer"
+            },
+            {
+                "name": "Lionel Lecaque",
+                "role": "Developer"
+            },
+            {
+                "name": "Patrick Plichart",
+                "role": "Developer"
+            },
+            {
+                "name": "Dieter Raber",
+                "role": "Developer"
+            },
+            {
+                "name": "Somsack Sipasseuth",
+                "role": "Developer"
+            }
+        ],
+        "description": "extension to manage LTI outcome for TAO",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "OAT",
+            "QTI",
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-itemhtml",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-itemhtml.git",
+            "reference": "e5b4df9dda1554f3af103bc5bb22a5b1903167b0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-itemhtml/zipball/e5b4df9dda1554f3af103bc5bb22a5b1903167b0",
+            "reference": "e5b4df9dda1554f3af103bc5bb22a5b1903167b0",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-08-18 14:13:21",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "taoOpenWebItem"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\taoOpenWebItem\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies S.A.",
+                "homepage": "http://www.taotesting.com"
+            },
+            {
+                "name": "Jérôme Bogaerts",
+                "role": "Developer"
+            },
+            {
+                "name": "Joel Bout",
+                "role": "Developer"
+            },
+            {
+                "name": "Bertrand Chevrier",
+                "role": "Developer"
+            },
+            {
+                "name": "Lionel Lecaque",
+                "role": "Developer"
+            },
+            {
+                "name": "Patrick Plichart",
+                "role": "Developer"
+            },
+            {
+                "name": "Dieter Raber",
+                "role": "Developer"
+            },
+            {
+                "name": "Somsack Sipasseuth",
+                "role": "Developer"
+            }
+        ],
+        "description": "extension to manage HTML items in TAO",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "OAT",
+            "QTI",
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-item",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-item.git",
+            "reference": "bb8cd952fe0aa52482f698e8854388b6c2d80590"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-item/zipball/bb8cd952fe0aa52482f698e8854388b6c2d80590",
+            "reference": "bb8cd952fe0aa52482f698e8854388b6c2d80590",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-08-18 14:12:53",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "taoItems"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\taoItems\\model\\": "models/classes/",
+                "oat\\taoItems\\helpers\\": "helpers",
+                "oat\\taoItems\\test\\": "test",
+                "oat\\taoItems\\scripts\\": "scripts"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies S.A.",
+                "homepage": "http://www.taotesting.com"
+            },
+            {
+                "name": "Jérôme Bogaerts",
+                "role": "Developer"
+            },
+            {
+                "name": "Joel Bout",
+                "role": "Developer"
+            },
+            {
+                "name": "Bertrand Chevrier",
+                "role": "Developer"
+            },
+            {
+                "name": "Lionel Lecaque",
+                "role": "Developer"
+            },
+            {
+                "name": "Patrick Plichart",
+                "role": "Developer"
+            },
+            {
+                "name": "Dieter Raber",
+                "role": "Developer"
+            },
+            {
+                "name": "Somsack Sipasseuth",
+                "role": "Developer"
+            }
+        ],
+        "description": "extension to manage items",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "OAT",
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-funcacl",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-funcacl.git",
+            "reference": "1ebcdf301866d927ff6cdeee2d70e5321f8fe55c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-funcacl/zipball/1ebcdf301866d927ff6cdeee2d70e5321f8fe55c",
+            "reference": "1ebcdf301866d927ff6cdeee2d70e5321f8fe55c",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-06-19 14:03:33",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "funcAcl"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\funcAcl\\scripts\\": "scripts"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies S.A.",
+                "homepage": "http://www.taotesting.com"
+            },
+            {
+                "name": "Jérôme Bogaerts",
+                "role": "Developer"
+            },
+            {
+                "name": "Joel Bout",
+                "role": "Developer"
+            },
+            {
+                "name": "Bertrand Chevrier",
+                "role": "Developer"
+            },
+            {
+                "name": "Lionel Lecaque",
+                "role": "Developer"
+            },
+            {
+                "name": "Patrick Plichart",
+                "role": "Developer"
+            },
+            {
+                "name": "Dieter Raber",
+                "role": "Developer"
+            },
+            {
+                "name": "Somsack Sipasseuth",
+                "role": "Developer"
+            }
+        ],
+        "description": "extension to manage features access control into TAO",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "OAT",
+            "QTI",
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "clearfw/clearfw",
+        "version": "v1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/clearfw.git",
+            "reference": "6ab44d5d9740e7d755a9a99204d9b8c43982476b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/clearfw/zipball/6ab44d5d9740e7d755a9a99204d9b8c43982476b",
+            "reference": "6ab44d5d9740e7d755a9a99204d9b8c43982476b",
+            "shasum": ""
+        },
+        "time": "2015-11-24 16:33:17",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "core/",
+                "core/helpers/",
+                "core/util"
+            ],
+            "files": [
+                "clearbricks/init.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies S.A.",
+                "homepage": "http://www.taotesting.com"
+            },
+            {
+                "name": "Jérôme Bogaerts",
+                "role": "Developer"
+            },
+            {
+                "name": "Joel Bout",
+                "role": "Developer"
+            },
+            {
+                "name": "Bertrand Chevrier",
+                "role": "Developer"
+            },
+            {
+                "name": "Lionel Lecaque",
+                "role": "Developer"
+            },
+            {
+                "name": "Alain Vagner",
+                "role": "Developer"
+            },
+            {
+                "name": "Luc Dehand",
+                "role": "Developer"
+            }
+        ],
+        "description": "ClearFw"
+    },
+    {
+        "name": "oat-sa/generis",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/generis.git",
+            "reference": "4d48919138bd140422c52f5219b8b3ea71fbb45e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/generis/zipball/4d48919138bd140422c52f5219b8b3ea71fbb45e",
+            "reference": "4d48919138bd140422c52f5219b8b3ea71fbb45e",
+            "shasum": ""
+        },
+        "require": {
+            "clearfw/clearfw": "~1.0",
+            "doctrine/dbal": ">=2.2.0,<2.4",
+            "easyrdf/easyrdf": "0.9.*",
+            "oat-sa/oatbox-extension-installer": "dev-master",
+            "php": ">=5.3.2"
+        },
+        "replace": {
+            "oat-sa/generis": "dev-master"
+        },
+        "time": "2015-08-19 14:12:52",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "generis"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\generis\\model\\": "core/",
+                "oat\\oatbox\\": "common/oatbox/",
+                "oat\\generis\\test\\": "test/",
+                "oat\\generis\\scripts\\": "scripts/"
+            },
+            "files": [
+                "common/legacy/class.LegacyAutoLoader.php",
+                "common/constants.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies S.A.",
+                "homepage": "http://www.taotesting.com"
+            },
+            {
+                "name": "Jérôme Bogaerts",
+                "role": "Developer"
+            },
+            {
+                "name": "Joel Bout",
+                "role": "Developer"
+            },
+            {
+                "name": "Bertrand Chevrier",
+                "role": "Developer"
+            },
+            {
+                "name": "Lionel Lecaque",
+                "role": "Developer"
+            },
+            {
+                "name": "Patrick Plichart",
+                "role": "Developer"
+            },
+            {
+                "name": "Dieter Raber",
+                "role": "Developer"
+            },
+            {
+                "name": "Somsack Sipasseuth",
+                "role": "Developer"
+            }
+        ],
+        "description": "TAO generis library",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "OAT",
+            "TAO",
+            "computer-based-assessment",
+            "doctrine-dbal"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-test",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-test.git",
+            "reference": "639cdb012a6c4e22ab0152a2da46993facdf8c7f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-test/zipball/639cdb012a6c4e22ab0152a2da46993facdf8c7f",
+            "reference": "639cdb012a6c4e22ab0152a2da46993facdf8c7f",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-07-29 12:59:17",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "taoTests"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\taoTests\\models\\": "models/classes/",
+                "oat\\taoTests\\test\\": "test",
+                "oat\\taoTests\\scripts\\": "scripts"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies S.A.",
+                "homepage": "http://www.taotesting.com"
+            },
+            {
+                "name": "Jérôme Bogaerts",
+                "role": "Developer"
+            },
+            {
+                "name": "Joel Bout",
+                "role": "Developer"
+            },
+            {
+                "name": "Bertrand Chevrier",
+                "role": "Developer"
+            },
+            {
+                "name": "Lionel Lecaque",
+                "role": "Developer"
+            },
+            {
+                "name": "Patrick Plichart",
+                "role": "Developer"
+            },
+            {
+                "name": "Dieter Raber",
+                "role": "Developer"
+            },
+            {
+                "name": "Somsack Sipasseuth",
+                "role": "Developer"
+            }
+        ],
+        "description": "extension to manage tests",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "OAT",
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-testlinear",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-testlinear.git",
+            "reference": "33234e827e45184a7a036e11999caed5f4460894"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-testlinear/zipball/33234e827e45184a7a036e11999caed5f4460894",
+            "reference": "33234e827e45184a7a036e11999caed5f4460894",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-07-09 14:00:16",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "taoTestLinear"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\taoTestLinear\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies SA"
+            }
+        ],
+        "description": "A simple linear test model",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-outcome",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-outcome.git",
+            "reference": "5c6a3dfca01aae36e22146d79ecc029472cab6b4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-outcome/zipball/5c6a3dfca01aae36e22146d79ecc029472cab6b4",
+            "reference": "5c6a3dfca01aae36e22146d79ecc029472cab6b4",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-08-18 14:19:12",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "taoResultServer"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\taoResultServer\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies S.A.",
+                "homepage": "http://www.taotesting.com"
+            },
+            {
+                "name": "Jérôme Bogaerts",
+                "role": "Developer"
+            },
+            {
+                "name": "Joel Bout",
+                "role": "Developer"
+            },
+            {
+                "name": "Bertrand Chevrier",
+                "role": "Developer"
+            },
+            {
+                "name": "Lionel Lecaque",
+                "role": "Developer"
+            },
+            {
+                "name": "Patrick Plichart",
+                "role": "Developer"
+            },
+            {
+                "name": "Dieter Raber",
+                "role": "Developer"
+            },
+            {
+                "name": "Somsack Sipasseuth",
+                "role": "Developer"
+            }
+        ],
+        "description": "extension to manage resultservers",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "OAT",
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/tao-core",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/tao-core.git",
+            "reference": "e09d993a0bcc289bc2b5ade67968ad8957c5675e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/tao-core/zipball/e09d993a0bcc289bc2b5ade67968ad8957c5675e",
+            "reference": "e09d993a0bcc289bc2b5ade67968ad8957c5675e",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/jig": "dev-master",
+            "oat-sa/oatbox-extension-installer": "dev-master",
+            "php": ">=5.3.10",
+            "phpdocumentor/reflection-docblock": "2.*",
+            "phpmailer/phpmailer": "dev-master"
+        },
+        "time": "2015-08-18 14:10:22",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "tao"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\tao\\model\\": "models/classes/",
+                "oat\\tao\\helpers\\": "helpers",
+                "oat\\tao\\test\\": "test",
+                "oat\\tao\\scripts\\": "scripts"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies S.A.",
+                "homepage": "http://www.taotesting.com"
+            },
+            {
+                "name": "Jérôme Bogaerts",
+                "role": "Developer"
+            },
+            {
+                "name": "Joel Bout",
+                "role": "Developer"
+            },
+            {
+                "name": "Bertrand Chevrier",
+                "role": "Developer"
+            },
+            {
+                "name": "Lionel Lecaque",
+                "role": "Developer"
+            },
+            {
+                "name": "Patrick Plichart",
+                "role": "Developer"
+            },
+            {
+                "name": "Dieter Raber",
+                "role": "Developer"
+            },
+            {
+                "name": "Somsack Sipasseuth",
+                "role": "Developer"
+            }
+        ],
+        "description": "TAO core extension ",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "OAT",
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-community",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-community.git",
+            "reference": "b405bab89027c568434a1536ae3960c9bda1d812"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-community/zipball/b405bab89027c568434a1536ae3960c9bda1d812",
+            "reference": "b405bab89027c568434a1536ae3960c9bda1d812",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-07-29 12:57:40",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "taoCe"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\taoCe\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies S.A.",
+                "homepage": "http://www.taotesting.com"
+            },
+            {
+                "name": "Jérôme Bogaerts",
+                "role": "Developer"
+            },
+            {
+                "name": "Joel Bout",
+                "role": "Developer"
+            },
+            {
+                "name": "Bertrand Chevrier",
+                "role": "Developer"
+            },
+            {
+                "name": "Lionel Lecaque",
+                "role": "Developer"
+            },
+            {
+                "name": "Patrick Plichart",
+                "role": "Developer"
+            },
+            {
+                "name": "Dieter Raber",
+                "role": "Developer"
+            },
+            {
+                "name": "Somsack Sipasseuth",
+                "role": "Developer"
+            }
+        ],
+        "description": "extension that gather community tools in TAO",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "OAT",
+            "QTI",
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-devtools",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-devtools.git",
+            "reference": "332eb332dca55407cdb16f918962428c4bfe315c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-devtools/zipball/332eb332dca55407cdb16f918962428c4bfe315c",
+            "reference": "332eb332dca55407cdb16f918962428c4bfe315c",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-08-18 14:11:21",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "taoDevTools"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\taoDevTools\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies S.A.",
+                "homepage": "http://www.taotesting.com"
+            },
+            {
+                "name": "Jérôme Bogaerts",
+                "role": "Developer"
+            },
+            {
+                "name": "Joel Bout",
+                "role": "Developer"
+            },
+            {
+                "name": "Bertrand Chevrier",
+                "role": "Developer"
+            },
+            {
+                "name": "Lionel Lecaque",
+                "role": "Developer"
+            },
+            {
+                "name": "Patrick Plichart",
+                "role": "Developer"
+            },
+            {
+                "name": "Dieter Raber",
+                "role": "Developer"
+            },
+            {
+                "name": "Somsack Sipasseuth",
+                "role": "Developer"
+            }
+        ],
+        "description": "extension that gather developement tools for TAO",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "OAT",
+            "QTI",
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-deliverytemplate",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-deliverytemplate.git",
+            "reference": "7551ef161b590ba2095d15b4d976687437188a2f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-deliverytemplate/zipball/7551ef161b590ba2095d15b4d976687437188a2f",
+            "reference": "7551ef161b590ba2095d15b4d976687437188a2f",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-04-30 10:47:29",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "taoDeliveryTemplate"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\taoDeliveryTemplate\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies SA"
+            }
+        ],
+        "description": "Allows the generation of delivery templates to recreate the same delivery several times. This extension is designed for backward compatibility with Tao 2.6 and does not offer significant new features.",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-deliverysimple",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-deliverysimple.git",
+            "reference": "4498bec06386f844810f4868ec1349c828cd856e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-deliverysimple/zipball/4498bec06386f844810f4868ec1349c828cd856e",
+            "reference": "4498bec06386f844810f4868ec1349c828cd856e",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-04-30 10:48:55",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "taoSimpleDelivery"
+        },
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies S.A.",
+                "homepage": "http://www.taotesting.com"
+            },
+            {
+                "name": "Jérôme Bogaerts",
+                "role": "Developer"
+            },
+            {
+                "name": "Joel Bout",
+                "role": "Developer"
+            },
+            {
+                "name": "Bertrand Chevrier",
+                "role": "Developer"
+            },
+            {
+                "name": "Lionel Lecaque",
+                "role": "Developer"
+            },
+            {
+                "name": "Patrick Plichart",
+                "role": "Developer"
+            },
+            {
+                "name": "Dieter Raber",
+                "role": "Developer"
+            },
+            {
+                "name": "Somsack Sipasseuth",
+                "role": "Developer"
+            }
+        ],
+        "description": "extension to create simple deliveries",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "OAT",
+            "QTI",
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-backoffice",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-backoffice.git",
+            "reference": "9cae7ec62a9db671923730b83c444312e47353f7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-backoffice/zipball/9cae7ec62a9db671923730b83c444312e47353f7",
+            "reference": "9cae7ec62a9db671923730b83c444312e47353f7",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-08-18 14:10:28",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "taoBackOffice"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\taoBackOffice\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies SA"
+            }
+        ],
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/extension-tao-frontoffice",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/extension-tao-frontoffice.git",
+            "reference": "718f0c53a7938f9f9b194dd891cc2d77b39d8fc6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/extension-tao-frontoffice/zipball/718f0c53a7938f9f9b194dd891cc2d77b39d8fc6",
+            "reference": "718f0c53a7938f9f9b194dd891cc2d77b39d8fc6",
+            "shasum": ""
+        },
+        "require": {
+            "oat-sa/oatbox-extension-installer": "dev-master"
+        },
+        "time": "2015-07-29 12:34:07",
+        "type": "tao-extension",
+        "extra": {
+            "tao-extension-name": "taoFrontOffice"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "oat\\taoFrontOffice\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies SA"
+            }
+        ],
+        "description": "Interface to allow test-takers to take a test",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "TAO",
+            "computer-based-assessment"
+        ]
+    },
+    {
+        "name": "oat-sa/lib-tao-qti",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oat-sa/lib-tao-qti.git",
+            "reference": "79ac8c6a6feeb801f3b3ceca853c7a280a1eac50"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oat-sa/lib-tao-qti/zipball/79ac8c6a6feeb801f3b3ceca853c7a280a1eac50",
+            "reference": "79ac8c6a6feeb801f3b3ceca853c7a280a1eac50",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.10",
+            "qtism/qtism": "~0.9"
+        },
+        "time": "2015-10-30 10:21:09",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "helpers/"
+            ],
+            "psr-4": {
+                "qti\\customOperators\\": "model/operators/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Open Assessment Technologies S.A.",
+                "homepage": "http://www.taotesting.com"
+            },
+            {
+                "name": "Jérôme Bogaerts",
+                "email": "jerome@taotesting.com",
+                "homepage": "http://www.taotesting.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "QTI Software Module Library for TAO",
+        "homepage": "http://www.taotesting.com",
+        "keywords": [
+            "CBA",
+            "Computer-Aided Assessment",
+            "Computer-Assisted Assessment",
+            "Computer-Based Assessment",
+            "IMS",
+            "OAT",
+            "QTI",
+            "TAO"
+        ]
+    },
+    {
+        "name": "phpmailer/phpmailer",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHPMailer/PHPMailer.git",
+            "reference": "7c8b786228bb9e1561ff60a2d6f7f6ce91be6fee"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/7c8b786228bb9e1561ff60a2d6f7f6ce91be6fee",
+            "reference": "7c8b786228bb9e1561ff60a2d6f7f6ce91be6fee",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.0.0"
+        },
+        "require-dev": {
+            "phpdocumentor/phpdocumentor": "*",
+            "phpunit/phpunit": "4.7.*"
+        },
+        "suggest": {
+            "league/oauth2-client": "Needed for XOAUTH2 authentication",
+            "league/oauth2-google": "Needed for Gmail XOAUTH2"
+        },
+        "time": "2015-11-24 07:47:59",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "class.phpmailer.php",
+                "class.phpmaileroauth.php",
+                "class.phpmaileroauthgoogle.php",
+                "class.smtp.php",
+                "class.pop3.php",
+                "extras/EasyPeasyICS.php",
+                "extras/ntlm_sasl_client.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Jim Jagielski",
+                "email": "jimjag@gmail.com"
+            },
+            {
+                "name": "Marcus Bointon",
+                "email": "phpmailer@synchromedia.co.uk"
+            },
+            {
+                "name": "Andy Prevost",
+                "email": "codeworxtech@users.sourceforge.net"
+            },
+            {
+                "name": "Brent R. Matzelle"
+            }
+        ],
+        "description": "PHPMailer is a full-featured email creation and transfer class for PHP"
+    }
+]

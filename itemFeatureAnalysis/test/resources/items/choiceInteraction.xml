@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://www.w3.org/1998/Math/MathML"
+	xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1  http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1.xsd"
+	identifier="i145434664962173771" title="SimpleChoice" adaptive="false"
+	timeDependent="false">
+	<responseDeclaration baseType="identifier"
+		cardinality="multiple" identifier="RESPONSE">
+		<correctResponse>
+			<value><![CDATA[choice_3]]></value>
+		</correctResponse>
+	</responseDeclaration>
+	<outcomeDeclaration cardinality="single" baseType="float"
+		identifier="SCORE" />
+	<itemBody>
+		<div class="grid-row">
+			<div class="col-12">
+				<choiceInteraction shuffle="true" maxChoices="0"
+					orientation="vertical" responseIdentifier="RESPONSE">
+					<prompt><![CDATA[What kind of animal is Sonic, the SEGA character ?]]></prompt>
+					<simpleChoice fixed="false" showHide="show"
+						identifier="choice_1"><![CDATA[a big donkey !!!]]></simpleChoice>
+					<simpleChoice fixed="false" showHide="show"
+						identifier="choice_2"><![CDATA[a marmoset, lol]]></simpleChoice>
+					<simpleChoice fixed="false" showHide="show"
+						identifier="choice_3"><![CDATA[a hedgehog, with niddles ! ]]></simpleChoice>
+					<simpleChoice fixed="false" showHide="show"
+						identifier="choice_4"><![CDATA[a bear, a hairy one]]></simpleChoice>
+				</choiceInteraction>
+			</div>
+		</div>
+	</itemBody>
+	<responseProcessing
+		template="http://www.imsglobal.org/question/qti_v2p1/rptemplates/match_correct" />
+</assessmentItem>

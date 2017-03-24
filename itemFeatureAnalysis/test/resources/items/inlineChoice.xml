@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://www.w3.org/1998/Math/MathML"
+	xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1  http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1.xsd"
+	identifier="i145494764724724755" title="InlineChoice" adaptive="false"
+	timeDependent="false">
+	<responseDeclaration baseType="identifier"
+		cardinality="single" identifier="RESPONSE">
+		<correctResponse>
+			<value><![CDATA[choice_2]]></value>
+		</correctResponse>
+	</responseDeclaration>
+	<outcomeDeclaration cardinality="single" baseType="float"
+		identifier="SCORE" />
+	<itemBody>
+		<div class="grid-row">
+			<div class="col-12">Fill the blank</div>
+		</div>
+		<div class="grid-row">
+			<div class="col-12">
+				Lorem ipsum dolor sit amet,
+				<inlineChoiceInteraction shuffle="false"
+					required="false" responseIdentifier="RESPONSE">
+					<inlineChoice fixed="false" showHide="show"
+						identifier="choice_1"><![CDATA[good evening]]></inlineChoice>
+					<inlineChoice fixed="false" showHide="show"
+						identifier="choice_2"><![CDATA[hello]]></inlineChoice>
+					<inlineChoice fixed="false" showHide="show"
+						identifier="choice_3"><![CDATA[bye]]></inlineChoice>
+				</inlineChoiceInteraction>
+				consectetur adipisicing ...
+			</div>
+		</div>
+	</itemBody>
+	<responseProcessing
+		template="http://www.imsglobal.org/question/qti_v2p1/rptemplates/match_correct" />
+</assessmentItem>

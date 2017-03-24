@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://www.w3.org/1998/Math/MathML"
+	xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1  http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1.xsd"
+	identifier="i145467637535974459" title="MatchInteraction" adaptive="false"
+	timeDependent="false">
+	<responseDeclaration baseType="directedPair"
+		cardinality="multiple" identifier="RESPONSE">
+		<correctResponse>
+			<value><![CDATA[choice_2 choice_3]]></value>
+			<value><![CDATA[choice_1 choice_4]]></value>
+			<value><![CDATA[choice_8 choice_5]]></value>
+			<value><![CDATA[choice_6 choice_7]]></value>
+		</correctResponse>
+	</responseDeclaration>
+	<outcomeDeclaration cardinality="single" baseType="float"
+		identifier="SCORE" />
+	<itemBody>
+		<div class="grid-row">
+			<div class="col-12">
+				<matchInteraction shuffle="false" maxAssociations="0"
+					minAssociations="0" responseIdentifier="RESPONSE">
+					<prompt><![CDATA[Make pairs]]></prompt>
+					<simpleMatchSet>
+						<simpleAssociableChoice fixed="false"
+							showHide="show" matchMax="0" matchMin="0" identifier="choice_1"><![CDATA[Hedgehog]]></simpleAssociableChoice>
+						<simpleAssociableChoice fixed="false"
+							showHide="show" matchMax="0" matchMin="0" identifier="choice_2"><![CDATA[Plumber]]></simpleAssociableChoice>
+						<simpleAssociableChoice fixed="false"
+							showHide="show" matchMax="0" matchMin="0" identifier="choice_6"><![CDATA[Fox]]></simpleAssociableChoice>
+						<simpleAssociableChoice fixed="false"
+							showHide="show" matchMax="0" matchMin="0" identifier="choice_8"><![CDATA[Princess]]></simpleAssociableChoice>
+					</simpleMatchSet>
+					<simpleMatchSet>
+						<simpleAssociableChoice fixed="false"
+							showHide="show" matchMax="0" matchMin="0" identifier="choice_3"><![CDATA[Mario]]></simpleAssociableChoice>
+						<simpleAssociableChoice fixed="false"
+							showHide="show" matchMax="0" matchMin="0" identifier="choice_4"><![CDATA[Sonic]]></simpleAssociableChoice>
+						<simpleAssociableChoice fixed="false"
+							showHide="show" matchMax="0" matchMin="0" identifier="choice_5"><![CDATA[Peach]]></simpleAssociableChoice>
+						<simpleAssociableChoice fixed="false"
+							showHide="show" matchMax="0" matchMin="0" identifier="choice_7"><![CDATA[Tail]]></simpleAssociableChoice>
+					</simpleMatchSet>
+				</matchInteraction>
+			</div>
+		</div>
+	</itemBody>
+	<responseProcessing
+		template="http://www.imsglobal.org/question/qti_v2p1/rptemplates/match_correct" />
+</assessmentItem>
